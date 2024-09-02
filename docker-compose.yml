@@ -31,7 +31,7 @@ services:
 
   # MySQL service
   db:
-    image: mysql:latest
+    image: mysql:8.0.39
     environment:
       MYSQL_DATABASE: laravel_db
       MYSQL_ROOT_PASSWORD: secret
